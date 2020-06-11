@@ -17,8 +17,8 @@ namespace Proyecto_Final_POO
     public partial class Form1 : Form
     {
         string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=user";
-        const string CORREO = "gerardo010yt@hotmail.com";
-        const string CONTRASEÑA = "F3d3r1c0";
+        const string CORREO = uncorreo;
+        const string CONTRASEÑA = unacontrasseña;
         const string SERVIDOR = "smtp.office365.com";
         const int PUERTO = 587;
         Datos misDatos = new Datos();
