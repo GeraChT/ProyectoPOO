@@ -88,7 +88,7 @@ namespace Proyecto_Final_POO
         }
         public void ModificarSQL()
         {
-            if (MessageBox.Show($"¿Esta seguro que desea pagarlo?\nNúmero de Factura: {txtPagar_Eliminar.Text}", "PAGO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            if (MessageBox.Show($"¿Esta seguro que desea pagarlo?\nNúmero de Factura: {txtPagar_Eliminar.Text}", "ELIMINAR", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
                 return;
             }
